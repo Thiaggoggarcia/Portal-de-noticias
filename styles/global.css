@@ -9,6 +9,12 @@
     --font-page:"Archivo", sans-serif;
 }
 
+*{
+    background-color: var(--stroke-color);
+    margin: 0;
+    padding: 0;
+}
+
 h1{
     font: 800 24px/135% var(--font-page);
 }
