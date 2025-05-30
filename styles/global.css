@@ -9,18 +9,23 @@
     --font-page:"Archivo", sans-serif;
 }
 
-*{
+body{
     background-color: var(--stroke-color);
     margin: 0;
     padding: 0;
+    width: 100%;
+    max-width: 1280px;
 }
+
 
 h1{
     font: 800 24px/135% var(--font-page);
+    color: var(--brand-color-ligh);
 }
 
 h2{
     font: 800 16px/140% var(--font-page);
+    color: var(--text-color-primary);
 }
 
 h3{
@@ -33,4 +38,12 @@ span{
 
 p{
     font: 400 14px/160% var(--font-page);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
