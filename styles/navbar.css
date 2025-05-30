@@ -1,0 +1,9 @@
+#navbar{
+    border: red solid; /*Visualização de container TMP*/
+}
+
+#navbar ul{
+    border: greenyellow solid; /*Visualização de container TMP*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);   
+}

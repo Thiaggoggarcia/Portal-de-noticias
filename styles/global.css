@@ -11,12 +11,12 @@
 
 body{
     background-color: var(--stroke-color);
+    color: var(--text-color-primary);
     margin: 0;
     padding: 0;
     width: 100%;
     max-width: 1280px;
 }
-
 
 h1{
     font: 800 24px/135% var(--font-page);
