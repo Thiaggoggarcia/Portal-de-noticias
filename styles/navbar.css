@@ -1,9 +1,20 @@
-#navbar{
-    border: red solid; /*Visualização de container TMP*/
-}
+#navbar-primary{
+    justify-content: space-between;
+    align-items: center;
+    font: var(--text-h2);
+    padding-block: 20px;
 
-#navbar ul{
-    border: greenyellow solid; /*Visualização de container TMP*/
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);   
+    /*Nesting CSS*/
+
+    div{
+        display: flex;
+        gap: 8px;
+    }
+}   
+
+#navbar-secondary{
+    padding-block: 14px;
+    justify-content: space-between;
+    border: 1px solid var(--stroke-color);
+    border-inline: none;
 }

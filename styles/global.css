@@ -6,38 +6,22 @@
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1;
     
+    /*Fonts*/
     --font-page:"Archivo", sans-serif;
+    --text-h1: 800 24px/135% var(--font-page);
+    --text-h2: 800 16px/140% var(--font-page);
+    --text-h3: 800 14px/140% var(--font-page);
+    --text-normal: 600 14px/145% var(--font-page);
+    --text-paragraph: 400 14px/160% var(--font-page);
 }
 
-body{
-    background-color: var(--stroke-color);
+
+*{
+    background-color: var(--bg-color);
+    font: var(--text-normal);
     color: var(--text-color-primary);
     margin: 0;
     padding: 0;
-    width: 100%;
-    max-width: 1280px;
-}
-
-h1{
-    font: 800 24px/135% var(--font-page);
-    color: var(--brand-color-ligh);
-}
-
-h2{
-    font: 800 16px/140% var(--font-page);
-    color: var(--text-color-primary);
-}
-
-h3{
-    font: 800 14px/140% var(--font-page);
-}
-
-span{
-    font: 600 14px/145% var(--font-page);
-}
-
-p{
-    font: 400 14px/160% var(--font-page);
 }
 
 ul{
@@ -45,5 +29,25 @@ ul{
 }
 
 a{
+    color: var(--text-color-secondary);
     text-decoration: none;
+}
+
+a:hover{
+    color: var(--brand-color-ligh);
+}
+
+/*Utility-First*/
+.container{
+    margin-inline: auto;
+    padding-inline: 32px;
+    max-width: 1280px;
+}
+
+.grid{
+    display: grid;
+}
+
+.grid-flow-col{ 
+    grid-auto-flow: column;
 }
