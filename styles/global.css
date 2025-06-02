@@ -43,6 +43,7 @@ img{
 
 h1{
     font:  var(--text-h1);
+    background: none;
 }
 
 main{

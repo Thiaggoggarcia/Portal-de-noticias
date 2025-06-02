@@ -1,24 +1,26 @@
-#emphasis{
 
-    
+.card{
+    position: relative;
+    overflow: hidden;
+
     img{
         border-radius: 4px;
         height: 100%;
-        object-fit: cover       ;
+        object-fit: cover;
     }
-    .card{
-        position: relative;
 
-        &::before{
-            content: "";
-            top: 50%;
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(
-                180deg,
-                transparent 0%,
-                #020617
-            );
-        }
+    figcaption{
+        background: none;
+    }
+
+    &::before{
+        content: "";
+        top: 50%;
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+            180deg,
+            transparent 0%,
+            #020617 );
     }
 }
