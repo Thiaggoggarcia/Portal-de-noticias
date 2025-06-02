@@ -1,0 +1,28 @@
+/*Utility-First*/
+.container{
+    margin-inline: auto;
+    padding-inline: 32px;
+    max-width: 1280px;
+}
+
+.grid{
+    display: grid;
+}
+
+.grid-flow-col{ 
+    grid-auto-flow: column;
+}
+
+.grid-col-2{
+    grid-template-columns: repeat(2, 1fr);
+}
+.gap-16{
+    gap: 16px;
+}
+.tag{
+    background-color: var(--brand-color-dark);
+    font: var(--text-tag);
+    border-radius: 4px;
+    letter-spacing: 4%;
+    padding: 4px 8px;
+}
