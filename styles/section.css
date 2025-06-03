@@ -37,3 +37,11 @@
 
     }
 }
+
+#most-read{
+    header{
+        display: flex;
+        justify-content: space-between;
+
+    }
+}
