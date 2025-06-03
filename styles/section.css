@@ -1,26 +1,39 @@
+#emphasis{
+    padding-bottom: 80px;
+    
+    .card{
+        position: relative;
+        overflow: hidden;
 
-.card{
-    position: relative;
-    overflow: hidden;
+        &::before{
+            content: "";
+            position: absolute;
+            border-radius: 4px;
+            inset: 0;
+            background: linear-gradient(180deg, transparent 0%, #020617);
+        }
 
-    img{
-        border-radius: 4px;
-        height: 100%;
-        object-fit: cover;
-    }
+        img{
+            object-fit: cover;
+            height: 100%;
+            border-radius: 4px;    
+        }
 
-    figcaption{
-        background: none;
-    }
+        figcaption{
+            position: absolute;
+            bottom: 0px;
+            padding: 24px;
 
-    &::before{
-        content: "";
-        top: 50%;
-        position: absolute;
-        inset: 0;
-        background: linear-gradient(
-            180deg,
-            transparent 0%,
-            #020617 );
+            &:has(h3){
+                padding: 12px;
+            }
+
+            h1,
+            h3{
+                margin-top: 8px;
+            }
+
+        }
+
     }
 }

@@ -13,15 +13,19 @@
     --text-h3: 800 14px/140% var(--font-page);
     --text-normal: 600 14px/145% var(--font-page);
     --text-paragraph: 400 14px/160% var(--font-page);
-    --text-tag: 500 10px/12px var(--font-page)
+    --text-tag: 500 10px/1.2 var(--font-page)
 }
 
 *{
+    
+    padding: 0;
+    margin: 0;
+}
+
+body{
     background-color: var(--bg-color);
     font: var(--text-normal);
     color: var(--text-color-primary);
-    margin: 0;
-    padding: 0;
 }
 
 ul{
@@ -43,7 +47,10 @@ img{
 
 h1{
     font:  var(--text-h1);
-    background: none;
+}
+
+h3{
+    font: var(--text-h3);
 }
 
 main{
