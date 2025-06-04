@@ -3,7 +3,6 @@
     margin-inline: auto;
     padding-inline: 32px;
     max-width: 1280px;
-    margin-top: 40px;
     padding-bottom: 80px;
 }
 
@@ -21,6 +20,12 @@
 
 .gap-16{
     gap: 16px;
+}
+.gap-15{
+    gap: 15px;
+}
+.gap-32{
+    gap: 32px;
 }
 
 .tag{
@@ -45,6 +50,9 @@
 }
 .text-normal{
     font: var(--text-normal);
+}
+.text-paragraph{
+    font: var(--text-paragraph);
 }
 
 .color-secondary{
