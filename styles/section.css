@@ -38,30 +38,30 @@
     }
 }
 
-#most-read{
-    padding-bottom: 80px;
+section > header{
+    justify-content: space-between;
+    padding-top: 12px;
+    border-top: 1px solid var(--stroke-color);
 
-    header{
-        justify-content: space-between;
-        padding-top: 12px;
-        border-top: 1px solid var(--stroke-color);
+    a{
+        align-items: center;
+        gap: 4px;
 
-        a{
-            align-items: center;
-            gap: 4px;
+        img{
+            width: 16px;
+            height: 16px;
+        }
 
-            img{
-                width: 16px;
-                height: 16px;
-            }
-
-            &:hover img{
-               content: url("../assets/icons/ArrowRight-hover.svg"); 
-            }
-
+        &:hover img{
+            content: url("../assets/icons/ArrowRight-hover.svg"); 
         }
 
     }
+}
+
+#most-read{
+    padding-bottom: 80px;
+
     nav{
         padding-block: 24px;
         grid-template-columns: repeat(4, 292px);
