@@ -39,9 +39,50 @@
 }
 
 #most-read{
-    header{
-        display: flex;
-        justify-content: space-between;
+    padding-bottom: 80px;
 
+    header{
+        justify-content: space-between;
+        padding-top: 12px;
+        border-top: 1px solid var(--stroke-color);
+
+        a{
+            align-items: center;
+            gap: 4px;
+
+            img{
+                width: 16px;
+                height: 16px;
+            }
+
+            &:hover img{
+               content: url("../assets/icons/ArrowRight-hover.svg"); 
+            }
+
+        }
+
+    }
+    nav{
+        padding-block: 24px;
+        grid-template-columns: repeat(4, 292px);
+        justify-content: center;
+
+        figure{
+            position: relative;
+
+            img{
+                object-fit: cover;
+                height: 160px;
+                
+            }
+            span{
+                position: absolute;
+                top: 8px;
+                left: 8px;
+            }
+            figcaption{
+                padding-top: 8px;
+            }
+        }
     }
 }

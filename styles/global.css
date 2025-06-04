@@ -45,14 +45,6 @@ img{
     width: 100%;
 }
 
-h1{
-    font:  var(--text-h1);
-}
-
-h3{
-    font: var(--text-h3);
-}
-
 main{
     margin-top: 40px;
 }
