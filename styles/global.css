@@ -28,6 +28,16 @@ body{
     color: var(--text-color-primary);
 }
 
+main{
+   grid-template-areas: 
+   "emphasis emphasis"
+   "most-read most-read"
+   "ia more"; 
+   column-gap: 32px;
+   row-gap: 80px;
+   grid-template-columns: 70% 30%;
+}
+
 ul{
     list-style: none;
 }

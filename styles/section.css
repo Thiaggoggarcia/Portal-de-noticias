@@ -1,5 +1,5 @@
 #emphasis{
-    padding-bottom: 80px;
+    grid-area: emphasis;
     
     .card{
         position: relative;
@@ -61,7 +61,7 @@ section > header{
 }
 
 #most-read{
-    padding-bottom: 80px;
+    grid-area: most-read;
 
     nav{
         padding-block: 24px;
@@ -88,12 +88,8 @@ section > header{
     }
 }
 
-#highlights{
-    grid-template-columns: 696px 488px;
-}
-
 #ia{
-    /* height: fit-content; */
+    grid-area: ia;
 
     figure{
 
@@ -114,7 +110,8 @@ section > header{
 }
 
 #more{
-    
+    grid-area: more;
+
     #ads{
         margin-bottom: 32px;
     
