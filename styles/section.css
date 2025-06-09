@@ -43,6 +43,7 @@ section > header{
     padding-top: 12px;
     height: 32px;
     border-top: 1px solid var(--stroke-color);
+    box-sizing: border-box;
     align-items: center;
 
     a{
@@ -95,7 +96,7 @@ section > header{
     div{
         margin-top: 24px;
         figure{
-    
+
             h2{
                 margin-top: 8px;
                 margin-bottom: 4px;
