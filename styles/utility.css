@@ -1,9 +1,7 @@
 /*Utility-First*/
 .container{
     margin-inline: auto;
-    padding-inline: 32px;
     max-width: 1280px;
-    padding-bottom: 80px;
 }
 
 .grid{
